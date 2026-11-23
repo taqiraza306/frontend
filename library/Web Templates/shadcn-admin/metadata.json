@@ -1,0 +1,27 @@
+{
+  "framework": "React",
+  "styling": "Tailwind CSS",
+  "ui_library": "shadcn/ui",
+  "repository_url": "https://github.com/satnaing/shadcn-admin",
+  "preview_url": "https://shadcn-admin.netlify.app/",
+  "license": "MIT",
+  "source_urls": [
+    "https://shadcn-admin.netlify.app/",
+    "https://shadcn-admin.netlify.app/tasks",
+    "https://shadcn-admin.netlify.app/users",
+    "https://shadcn-admin.netlify.app/settings"
+  ]
+}
+
+
+
+{
+  "styling": "Tailwind CSS",
+  "ui_library": "shadcn/ui",
+  "repository_url": "https://github.com/shadcn-ui/ui",
+  "preview_url": "https://ui.shadcn.com/docs/components/base/button",
+  "license": "MIT",
+  "source_urls": [
+    "https://ui.shadcn.com/docs/components/base/button"
+  ]
+}

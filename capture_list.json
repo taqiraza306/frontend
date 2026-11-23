@@ -1,0 +1,77 @@
+{
+  "_readme": [
+    "Copy to capture_list.json, edit, then run: python capture.py capture_list.json",
+    "type: web | page | block | component  -> Web Templates | Page Templates | UI Blocks | UI Components",
+    "urls: one entry per page; each is a URL string or {url, name, selector, click}",
+    "selector: capture only that element (use for blocks/components; 'iframe >> nth=1' = second iframe)",
+    "mobile: also capture the first URL at phone size | dark: emulate dark mode | hide: extra selectors to hide",
+    "Always check the repository's LICENSE before adding it to the library."
+  ],
+  "items": [
+    {
+      "type": "web",
+      "name": "shadcn-admin",
+      "urls": [
+        { "url": "https://shadcn-admin.netlify.app/", "name": "01-dashboard" },
+        { "url": "https://shadcn-admin.netlify.app/tasks", "name": "02-tasks" },
+        { "url": "https://shadcn-admin.netlify.app/users", "name": "03-users" },
+        { "url": "https://shadcn-admin.netlify.app/settings", "name": "04-settings" }
+      ],
+      "mobile": true,
+      "repository_url": "https://github.com/satnaing/shadcn-admin",
+      "license": "MIT",
+      "metadata": { "framework": "React", "styling": "Tailwind CSS", "ui_library": "shadcn/ui" }
+    },
+    {
+      "type": "page",
+      "name": "shadcn-admin-sign-in",
+      "url": "https://shadcn-admin.netlify.app/sign-in",
+      "repository_url": "https://github.com/satnaing/shadcn-admin",
+      "license": "MIT"
+    },
+    {
+      "type": "page",
+      "name": "shadcn-dashboard-example",
+      "url": "https://ui.shadcn.com/examples/dashboard",
+      "selector": "div[class*='group/sidebar-wrapper']",
+      "repository_url": "https://github.com/shadcn-ui/ui",
+      "license": "MIT",
+      "metadata": { "framework": "Next.js", "styling": "Tailwind CSS", "ui_library": "shadcn/ui" }
+    },
+    {
+      "type": "block",
+      "name": "hyperui-pricing-light",
+      "url": "https://www.hyperui.dev/components/marketing/pricing",
+      "selector": "iframe",
+      "repository_url": "https://github.com/markmead/hyperui",
+      "license": "MIT",
+      "metadata": { "styling": "Tailwind CSS" }
+    },
+    {
+      "type": "block",
+      "name": "hyperui-pricing-dark",
+      "url": "https://www.hyperui.dev/components/marketing/pricing",
+      "selector": "iframe >> nth=1",
+      "repository_url": "https://github.com/markmead/hyperui",
+      "license": "MIT",
+      "metadata": { "styling": "Tailwind CSS" }
+    },
+    {
+      "type": "component",
+      "name": "shadcn-button",
+      "url": "https://ui.shadcn.com/docs/components/base/button",
+      "selector": "[data-slot='preview']",
+      "repository_url": "https://github.com/shadcn-ui/ui",
+      "license": "MIT",
+      "metadata": { "styling": "Tailwind CSS", "ui_library": "shadcn/ui" }
+    },
+    {
+  "type": "page",
+  "name": "my-signup-page",
+  "url": "https://some-demo-site.com/signup",
+  "repository_url": "https://github.com/owner/repo",
+  "license": "MIT"
+    }
+
+  ]
+}

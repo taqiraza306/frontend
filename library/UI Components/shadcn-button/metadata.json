@@ -1,0 +1,10 @@
+{
+  "styling": "Tailwind CSS",
+  "ui_library": "shadcn/ui",
+  "repository_url": "https://github.com/shadcn-ui/ui",
+  "preview_url": "https://ui.shadcn.com/docs/components/base/button",
+  "license": "MIT",
+  "source_urls": [
+    "https://ui.shadcn.com/docs/components/base/button"
+  ]
+}

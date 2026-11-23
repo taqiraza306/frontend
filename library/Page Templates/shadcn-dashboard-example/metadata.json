@@ -1,0 +1,11 @@
+{
+  "framework": "Next.js",
+  "styling": "Tailwind CSS",
+  "ui_library": "shadcn/ui",
+  "repository_url": "https://github.com/shadcn-ui/ui",
+  "preview_url": "https://ui.shadcn.com/examples/dashboard",
+  "license": "MIT",
+  "source_urls": [
+    "https://ui.shadcn.com/examples/dashboard"
+  ]
+}

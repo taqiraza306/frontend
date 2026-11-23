@@ -1,0 +1,48 @@
+# ---- Secrets: never commit ---------------------------------------------------
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+.aws/
+
+# ---- Generated data (rebuild with: python ingest.py) -------------------------
+storage/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.index
+*.faiss
+*.tmp
+
+# ---- Python -----------------------------------------------------------------
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---- Tools, logs, OS files ----------------------------------------------------
+*.log
+.cache/
+graphify-out/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Screenshot library -------------------------------------------------------
+# Tracked by default so the demo works after cloning. If it grows large,
+# uncomment the next two lines to keep the folder structure but not the images.
+# library/**/*
+# !library/*/
